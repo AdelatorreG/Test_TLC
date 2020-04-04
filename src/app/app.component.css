@@ -1,0 +1,60 @@
+.wrapAll{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.wrapGrid{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-gap:10px;
+    width: 100%;
+    height: auto;
+}
+
+.subGrid{
+    box-sizing: border-box;
+    padding:3px;
+    border-color: lightseagreen;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+
+.section-header{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.chartButton{
+    margin-left:auto;
+    margin-right:auto;
+    width: 180px;
+    color: white;
+    border-radius: 5px;
+    background: lightseagreen;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.chartButton:hover{
+    background: white;
+    color: lightseagreen;
+}
+
+.active{
+    background: white;
+    color: lightseagreen;
+}
+
+.chartButton p{
+
+}

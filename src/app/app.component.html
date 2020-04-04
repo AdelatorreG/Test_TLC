@@ -1,1 +1,22 @@
-<div id="chartdiv" style="width: 100%; height: 500px"></div>
+<div class="wrapAll">
+    <p class="section-header">{{Title}}</p>
+    <div class="wrapGrid">
+        <div class="subGrid">
+            <div class="chartButton" (click)="toDecemberPie()" [class.active]="Category=='Pie'">
+                <p>December Pie</p>
+            </div>
+            <div class="chartButton" (click)="toJanuaryTreeMap()" [class.active]="Category=='Tree'">
+                <p>January Tree</p>
+            </div>
+            <div class="chartButton" (click)="toBothinTree()" [class.active]="Category=='BothTree|'">
+                <p>Both in Tree</p>
+            </div>
+        </div>
+        <div class="subGrid">
+            <div id="chartdiv" style="width: 100%; height: 500px"></div>
+
+        </div>
+
+    </div>
+
+</div>
